@@ -1,7 +1,8 @@
-# Environments and Secrets
+
+# Environment variables and secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 *.env
 
 # Python
@@ -30,7 +31,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Testing & Coverage
+# Testing and coverage
 .pytest_cache/
 .coverage
 htmlcov/
@@ -47,12 +48,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Vite & Frontend Build Output
+# Frontend build output
 frontend/dist/
 frontend/dist-ssr/
 *.local
 
-# IDE & OS
+# IDE and OS
 .vscode/
 .idea/
 *.swp
